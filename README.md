@@ -1,5 +1,5 @@
 # SHOP.CARS  
-//HTML, CSS, Bootstrap, javascript, Node.js, MangoDB
+//HTML, CSS, Bootstrap, javascript, Node.js, MongoDB
 
 
 ![image](https://user-images.githubusercontent.com/91506037/189188101-32ac499d-a360-4c87-908f-f17318cfe0ed.png)
