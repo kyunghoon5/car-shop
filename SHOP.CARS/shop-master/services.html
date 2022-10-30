@@ -1,0 +1,237 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Shop &mdash; Website </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"> -->
+	<!-- <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i" rel="stylesheet"> -->
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+
+	
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script>
+		function submitForm() {
+		  alert("This will Redirect YOU ");
+		}
+	  </script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+		
+	<div class="fh5co-loader"></div>
+	
+	<div id="page">
+	<nav class="fh5co-nav" role="navigation">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-xs-2">
+					<div id="fh5co-logo"><a href="index.html">Shop.Cars</a></div>
+				</div>
+				<div class="col-md-6 col-xs-6 text-center menu-1">
+					<ul>
+						<li class="has-dropdown">
+							<a href="product.html">Shop</a>
+							<!-- <ul class="dropdown">
+								<li><a href="single.html">Single Shop</a></li>
+							</ul> -->
+						</li>
+						<li><a href="about.html">About</a></li>
+						<!-- <li  class="active">
+							<a href="services.html">Services</a>
+							 
+						</li> -->
+						<li ><a href="contact.html">Contact</a></li>
+						
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<button class="btn btn-dark " ><a href="services.html">Appointment for Service</a></button>
+
+				</div>
+			
+			</div>
+			
+		</div>
+	</nav>
+
+	<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(https://www.bugatti.com/fileadmin/_processed_/9/5/csm_HEADER_22de7ed3a8.jpg);">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t">
+						<div class="display-tc animate-box" data-animate-effect="fadeIn">
+							<h1>Appointment for Service</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<div id="fh5co-contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 col-md-push-1 animate-box">
+					
+					
+
+				</div>
+				<div class="col-md-12 animate-box">
+					<h3>Get In Touch</h3>
+					<form  action="http://localhost:3000/postservice" method="POST" onsubmit='return submitForm();'>
+						<div class="row form-group">
+							<div class="col-md-6">
+								<!-- <label for="fname">First Name</label> -->
+								<input type="text" id="fname" name="brand" class="form-control" placeholder="Brand">
+							</div>
+							<div class="col-md-6">
+								<!-- <label for="lname">Last Name</label> -->
+								<input type="text" id="lname" name="model" class="form-control" placeholder="Model">
+							</div>
+						</div>
+						<div class="row form-group">
+							<div class="col-md-6">
+								<!-- <label for="fname">First Name</label> -->
+								<input type="date" id="fname" name="year" class="form-control" placeholder="Year">
+							</div>
+							<div class="col-md-6">
+								<!-- <label for="lname">Last Name</label> -->
+								<input type="text" id="lname" name="time_variant" class="form-control" placeholder="Time/Variant">
+							</div>
+						</div>
+						<div class="row form-group">
+							<div class="col-md-6">
+								<!-- <label for="fname">First Name</label> -->
+								<input type="text" id="fname" name="transmission" class="form-control" placeholder="Transmission">
+							</div>
+							<div class="col-md-6">
+								<!-- <label for="lname">Last Name</label> -->
+								<input type="text" id="lname" name="mileage" class="form-control" placeholder="Mileage">
+							</div>
+						</div>
+						<div class="row form-group">
+							<div class="col-md-6">
+								<!-- <label for="fname">First Name</label> -->
+								<input type="text" id="fname" name="registration" class="form-control" placeholder="Registration City">
+							</div>
+							<div class="col-md-6">
+								<!-- <label for="lname">Last Name</label> -->
+								<input type="number" id="lname" name="number" class="form-control" placeholder="Mobile Number">
+							</div>
+						</div>
+
+						
+					<div class="form-group">
+						<input type="submit" value="Send" class="btn btn-primary">
+					</div> 
+
+					</form>		
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+	
+<footer id="fh5co-footer" role="contentinfo">
+	<div class="container">
+		<div class="row row-pb-md">
+			<div class="col-md-4 fh5co-widget">
+				<h3>Shop.Cars</h3>
+				<p>No matter if you need something for the family, for the weekend, or to collect, you can count on us to get you what you need.</p>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
+				<ul class="fh5co-footer-links">
+					<li><a href="about.html">About</a></li>
+					<li><a href="#">Help</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="#">Terms</a></li>
+					<li><a href="#">Meetups</a></li>
+				</ul>
+			</div>
+
+			<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
+				<ul class="fh5co-footer-links">
+					<li><a href="product.html">Shop</a></li>
+					<li><a href="#">Privacy</a></li>
+					<li><a href="#">Testimonials</a></li>
+					<li><a href="#">Handbook</a></li>
+					<li><a href="#">Held Desk</a></li>
+				</ul>
+			</div>
+ 
+		</div>
+
+
+
+	</div>
+</footer> 
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- countTo -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Google Map -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+	<script src="js/google_map.js"></script>
+
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+
