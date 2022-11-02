@@ -1,0 +1,17 @@
+.youtube {
+  display: inline-block;
+}
+.info {
+  display: inline-block;
+  vertical-align: top;
+}
+.video {
+  width: 230px;
+  height: 150px;
+}
+.title {
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 1px;
+  margin-left: 3px;
+}
