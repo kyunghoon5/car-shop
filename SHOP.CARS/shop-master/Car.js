@@ -1,34 +1,8 @@
-//     // api url
-// const api_url =
-// 	"http://localhost:3000/getcars";
-
-// // Defining async function
-// async function getapi(url) {
-// 	alert("ok")
-// 	// Storing response
-// 	const response = await fetch(url);
-	
-// 	// Storing data in form of JSON
-// 	var data = await response.json();
-// 	console.log(response);
-// 	if (response) {
-// 		hideloader();
-// 	}
-// 	show(data);
-// }
-// // Calling that async function
-// getapi(api_url);
-
-// // Function to hide the loader
-// function hideloader() {
-// 	document.getElementById('loading').style.display = 'none';
-// }
-// Function to define innerHTML for HTML table
 
 
 
 
-const BASE_URL = 'http://localhost:3000/getcars';
+
 
 const getTodoItems = async () => {
   try {
@@ -85,10 +59,3 @@ function hideloader() {
 
 
 
-// fetch('http://localhost:3000/getcars').then(function (response) {
-// 	// The API call was successful!
-// 	console.log('success!', response);
-// }).catch(function (err) {
-// 	// There was an error
-// 	console.warn('Something went wrong.', err);
-// });
